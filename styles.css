@@ -1,0 +1,67 @@
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 300%;
+  background-color: aqua;
+}
+
+h2 {
+  color: crimson;
+  font-size: 35px;
+}
+
+h3{
+  color: white;
+  font-size: 25px;
+  background-color: darkslategray;
+}
+
+a:link {
+  color: green;
+  background-color: gold;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: gold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: gold;
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+  background-color: gold;
+  text-decoration: underline;
+}
+
+body {
+  background-color: black;
+}
+
+
+html, body { 
+  background-size: 100%;
+}
+
+body {
+    background-image: url("img/logo.avif");
+    background-position: center; /* keeps image centered */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+}
+
+ul {
+  font-size: 25px;
+  color: white;
+}
